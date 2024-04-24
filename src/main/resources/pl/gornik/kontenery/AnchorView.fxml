@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.gornik.kontenery.AnchorController">
+   <children>
+      <TextArea fx:id="txtArea" editable="false" focusTraversable="false" layoutX="48.0" layoutY="22.0" prefHeight="300.0" prefWidth="397.0" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0" />
+      <Button fx:id="btnAdd" layoutX="441.0" layoutY="338.0" mnemonicParsing="false" text="Dodaj" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="130.0" />
+      <Button fx:id="btnClose" layoutX="509.0" layoutY="338.0" mnemonicParsing="false" text="Zamknij" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+      <TextField fx:id="txtText" layoutX="72.0" layoutY="343.0" prefHeight="43.0" prefWidth="312.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="72.0" />
+   </children>
+</AnchorPane>

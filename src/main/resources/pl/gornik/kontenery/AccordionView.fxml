@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Accordion maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="pl.gornik.kontenery.AccordionController">
+  <panes>
+    <TitledPane animated="false" text="Zakładka 1">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ColorPicker fx:id="colorPick" layoutX="14.0" layoutY="42.0" />
+                  <Rectangle fx:id="rectangle1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="225.0" layoutX="320.0" layoutY="48.0" stroke="BLACK" strokeType="INSIDE" width="128.0" />
+                  <Rectangle fx:id="rectangle2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="225.0" layoutX="450.0" layoutY="48.0" stroke="BLACK" strokeType="INSIDE" width="131.0" />
+               </children></AnchorPane>
+      </content>
+    </TitledPane>
+    <TitledPane animated="false" text="Zakładka 2">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="lblInfo" layoutX="32.0" layoutY="27.0" prefHeight="72.0" prefWidth="507.0" text="Wlazł kotek na płoteki mruga, ładna to piosenka, nie długa. Nie długa, nie krótka, lecz w sam raz, zaśpiewaj koteczku, jeszcze raz." wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnButton" layoutX="400.0" layoutY="220.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="145.0" text="Przycisk" />
+               </children></AnchorPane>
+      </content>
+    </TitledPane>
+    <TitledPane animated="false" text="Zakładka 3">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="btnClose" layoutX="400.0" layoutY="220.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="145.0" text="Zamknij" />
+               </children></AnchorPane>
+      </content>
+    </TitledPane>
+  </panes>
+</Accordion>
